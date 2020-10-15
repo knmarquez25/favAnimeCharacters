@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class CelebCard extends StatelessWidget {
+class CharacterCard extends StatelessWidget {
   final String name;
   final String anime;
   final String imageUrl;
 
-  CelebCard({this.name, this.anime, this.imageUrl});
+  CharacterCard({this.name, this.anime, this.imageUrl});
 
   @override
   Widget build(BuildContext context) {

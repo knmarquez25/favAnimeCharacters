@@ -1,4 +1,4 @@
-import 'package:favanimecharacters/widgets//celeb_card.dart';
+import 'package:favanimecharacters/widgets//character_card.dart';
 
 import 'package:flutter/material.dart';
 class HomeScreen extends StatelessWidget {
@@ -14,31 +14,31 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            CelebCard(
+            CharacterCard(
               name: 'Tomoe',
               anime: '"Kamisama Kiss"',
               imageUrl:
               'https://i.pinimg.com/originals/d1/c9/89/d1c9891000f7102f4f26bfccf5fb25ce.jpg',
             ),
-            CelebCard(
+            CharacterCard(
               name: 'Kaneki',
               anime: '"Tokyo Ghoul"',
               imageUrl:
               'https://static3.cbrimages.com/wordpress/wp-content/uploads/2019/11/Kaneki-Ken-Featured-Image.jpg',
             ),
-            CelebCard(
+            CharacterCard(
               name: 'Kakashi',
               anime: 'Naruto"',
               imageUrl:
               'https://cdn.costumewall.com/wp-content/uploads/2017/01/kakashi-hatake.jpg',
             ),
-            CelebCard(
+            CharacterCard(
               name: 'Sebastian',
               anime: '"Black Butler"',
               imageUrl:
               'https://static.wikia.nocookie.net/dxd-mightverse/images/0/07/Lucifuge_Rofocale.png/revision/latest?cb=20200727075432',
             ),
-            CelebCard(
+            CharacterCard(
                 name: 'Odanna',
                 anime: '"Kakuriyo no Yadomeshi"',
                 imageUrl:
