@@ -6,8 +6,8 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Rohan\'s favorite celebrities'),
-        backgroundColor: Colors.pink,
+        title: Text('Kathya\'s favorite anime characters'),
+        backgroundColor: Colors.blue,
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.symmetric(vertical: 10.0),
@@ -15,28 +15,34 @@ class HomeScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             CelebCard(
-              name: 'Conan O\'Brien',
-              tagline: '"Longest running late night show host"',
+              name: 'Tomoe',
+              anime: '"Kamisama Kiss"',
               imageUrl:
-              'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Conan_O%27Brien_by_Gage_Skidmore_2.jpg/1200px-Conan_O%27Brien_by_Gage_Skidmore_2.jpg',
+              'https://i.pinimg.com/originals/d1/c9/89/d1c9891000f7102f4f26bfccf5fb25ce.jpg',
             ),
             CelebCard(
-              name: 'Craig Ferguson',
-              tagline: '"Owner of a robot skeleton"',
+              name: 'Kaneki',
+              anime: '"Tokyo Ghoul"',
               imageUrl:
-              'https://upload.wikimedia.org/wikipedia/commons/7/75/Craig_Ferguson_by_Gage_Skidmore.jpg',
+              'https://static3.cbrimages.com/wordpress/wp-content/uploads/2019/11/Kaneki-Ken-Featured-Image.jpg',
             ),
             CelebCard(
-              name: 'Andy Richter',
-              tagline: 'The author of "Sidekicked to the Curb - The Andy Richter Story"',
+              name: 'Kakashi',
+              anime: 'Naruto"',
               imageUrl:
-              'https://m.media-amazon.com/images/M/MV5BYmIxZWY4NzYtYTFjZi00NWZiLTg2NjgtZTAxNzdkNGFjYjc0XkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_SX1777_CR0,0,1777,999_AL_.jpg',
+              'https://cdn.costumewall.com/wp-content/uploads/2017/01/kakashi-hatake.jpg',
             ),
             CelebCard(
-              name: 'Josh Robert Thompson',
-              tagline: '"Many voices, one person. Legendry voice actor and comedian"',
+              name: 'Sebastian',
+              anime: '"Black Butler"',
               imageUrl:
-              'https://m.media-amazon.com/images/M/MV5BMjVjZGE3Y2YtYjFlMS00NWE5LTgzNWMtMzdmZDRkNWU4NzdmXkEyXkFqcGdeQXVyMzc1OTU1MTk@._V1_.jpg',
+              'https://static.wikia.nocookie.net/dxd-mightverse/images/0/07/Lucifuge_Rofocale.png/revision/latest?cb=20200727075432',
+            ),
+            CelebCard(
+                name: 'Odanna',
+                anime: '"Kakuriyo no Yadomeshi"',
+                imageUrl:
+                'https://pbs.twimg.com/media/DjIEHPHVAAAhIxY.jpg',
             ),
           ],
         ),

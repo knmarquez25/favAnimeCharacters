@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 
 class CelebCard extends StatelessWidget {
   final String name;
-  final String tagline;
+  final String anime;
   final String imageUrl;
 
-  CelebCard({this.name, this.tagline, this.imageUrl});
+  CelebCard({this.name, this.anime, this.imageUrl});
 
   @override
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
       padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 20.0),
-      color: Colors.pink[100],
+      color: Colors.lightBlue[100],
       child: Column(
         children: [
           Image(
@@ -33,7 +33,7 @@ class CelebCard extends StatelessWidget {
             height: 5.0,
           ),
           Text(
-            tagline,
+            anime,
             style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w300),
             textAlign: TextAlign.center,
           )
